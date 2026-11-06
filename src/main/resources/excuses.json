@@ -1,0 +1,608 @@
+{
+  "categories": {
+    "social": {
+      "name": {
+        "pl": "Spotkania towarzyskie",
+        "en": "Social Gatherings",
+        "ar": "اللقاءات الاجتماعية",
+        "es": "Reuniones sociales",
+        "fr": "Rencontres sociales"
+      },
+      "excuses": [
+        {
+          "pl": "Kurier napisał, że będzie 'między 14:00 a 21:00' i muszę cały czas nasłuchiwać domofonu.",
+          "en": "The courier texted that they'll arrive 'between 2 PM and 9 PM', so I have to guard the intercom all day.",
+          "ar": "أرسل مندوب التوصيل أنه سيصل 'بين الثانية ظهراً والتاسعة مساءً'، لذا يجب أن أظل ملازماً لجرس الباب طوال اليوم.",
+          "es": "El repartidor me avisó de que llegará 'entre las 14:00 y las 21:00', así que tengo que estar pegado al interfono todo el día.",
+          "fr": "Le livreur a indiqué qu'il passerait 'entre 14h et 21h', je dois donc surveiller l'interphone sans interruption."
+        },
+        {
+          "pl": "Moja bateria społeczna spadła do 2% i muszę pilnie przejść w tryb oszczędzania energii w samotności.",
+          "en": "My social battery has dropped to 2%, and I urgently need to enter solitary power-saving mode.",
+          "ar": "انخفضت طاقتي الاجتماعية إلى 2%، وأحتاج بشكل عاجل إلى الدخول في وضع توفير الطاقة بمفردي.",
+          "es": "Mi batería social ha caído al 2% y necesito urgentemente ponerme en modo ahorro de energía a solas.",
+          "fr": "Ma batterie sociale est tombée à 2 % et je dois d'urgence passer en mode économie d'énergie en solo."
+        },
+        {
+          "pl": "Mój kot zasnął mi na kolanach, a według uniwersalnego prawa nie wolno mi się teraz poruszyć.",
+          "en": "My cat fell asleep on my lap, and according to universal law, I'm legally not allowed to move.",
+          "ar": "نام قطي في حضني، ووفقاً للقانون الكوني، يُحظر عليّ التحرك تماماً في الوقت الحالي.",
+          "es": "Mi gato se ha dormido en mi regazo y, según la ley universal, no tengo permitido moverme.",
+          "fr": "Mon chat s'est endormi sur mes genoux, et selon la loi universelle, il m'est formellement interdit de bouger."
+        },
+        {
+          "pl": "Wstawiłem pranie, a pralka zaczęła wydawać dźwięki startującego odrzutowca – boję się zostawić mieszkanie.",
+          "en": "I started a load of laundry and the washing machine sounds like a launching jet – I'm terrified to leave the apartment.",
+          "ar": "قمت بتشغيل الغسالة وبدأت تصدر صوتاً يشبه إقلاع طائرة نفاثة؛ أخشى أن أترك الشقة بمفردها.",
+          "es": "Puse una lavadora y suena como un avión despegando; me da miedo dejar el piso solo.",
+          "fr": "J'ai lancé une machine et elle fait un bruit de réacteur au décollage ; j'ai peur de laisser l'appartement sans surveillance."
+        },
+        {
+          "pl": "Dopadła mnie nagła migrena od całodniowego gapienia się w ekran, muszę leżeć w ciemnym pokoju.",
+          "en": "A sudden migraine hit me from staring at screens all day; I need to lie down in a pitch-black room.",
+          "ar": "داهمني صداع نصفي مفاجئ بسبب التحديق في الشاشات طوال اليوم؛ أحتاج للاستلقاء في غرفة مظلمة تماماً.",
+          "es": "Me ha dado una migraña repentina de tanto mirar pantallas hoy; tengo que tumbarme en una habitación a oscuras.",
+          "fr": "Une migraine soudaine m'a frappé à force de fixer les écrans toute la journée ; je dois m'allonger dans le noir complet."
+        },
+        {
+          "pl": "Byłem święcie przekonany, że jesteśmy umówieni na jutro i ułożyłem już sobie cały wieczór.",
+          "en": "I was utterly convinced we were meeting tomorrow and I've already committed to a whole quiet evening routine.",
+          "ar": "كنت مقتنعاً تماماً بأن موعدنا غداً، وقد رتبت بالفعل خططي المسائية على هذا الأساس.",
+          "es": "Estaba totalmente convencido de que habíamos quedado mañana y ya había organizado toda mi noche.",
+          "fr": "J'étais intimement persuadé qu'on s'était donné rendez-vous demain et j'ai déjà planifié toute ma soirée."
+        },
+        {
+          "pl": "Zgubiłem klucze w mieszkaniu i od godziny próbuję je namierzyć, żeby nie zatrzasnąć się na klatce.",
+          "en": "I lost my apartment keys indoors and have spent the last hour searching so I don't lock myself out.",
+          "ar": "أضعت مفاتيح الشقة في الداخل، وأمضيت الساعة الماضية أبحث عنها لتجنب حبس نفسي في الخارج.",
+          "es": "Perdí las llaves dentro de casa y llevo una hora buscándolas para no quedarme encerrado fuera.",
+          "fr": "J'ai égaré mes clés dans l'appartement et je passe ma dernière heure à les chercher pour ne pas me retrouver coincé dehors."
+        },
+        {
+          "pl": "Mój żołądek właśnie ogłosił bezterminowy strajk po tym podejrzanym jedzeniu z obiadu.",
+          "en": "My stomach just announced an indefinite strike after some suspicious lunch choices.",
+          "ar": "أعلنت معدتي للتو إضراباً مفتوحاً عن العمل بعد وجبة غداء مريبة للغاية.",
+          "es": "Mi estómago acaba de declararse en huelga indefinida tras una comida bastante sospechosa.",
+          "fr": "Mon estomac vient de déclencher une grève illimitée suite à un déjeuner particulièrement suspect."
+        },
+        {
+          "pl": "Rodzina zrobiła mi niezapowiedziany nalot z ciastem i nie mam jak się teraz wyrwać.",
+          "en": "My relatives dropped by for an unexpected surprise visit with cake, and there's no polite way to escape.",
+          "ar": "داهمني أفراد عائلتي بزيارة مفاجئة وغير معلنة حاملين معهم الحلوى، ولا توجد طريقة لائقة للهروب الآن.",
+          "es": "Mi familia se presentó de sorpresa con un pastel y no hay manera educada de escaparme ahora mismo.",
+          "fr": "De la famille a débarqué à l'improviste avec des gâteaux, et je n'ai aucun moyen poli de m'éclipser."
+        },
+        {
+          "pl": "Zalało mi łazienkę z winy sąsiada z góry i muszę rozstawiać miski oraz czekać na hydraulika.",
+          "en": "The upstairs neighbor's leak flooded my bathroom, so I'm currently setting out buckets and awaiting a plumber.",
+          "ar": "تسبب تسريب من شقة الجار العلوي في غمر حمامي بالمياه، وأنا حالياً أوزع الأواني بانتظار السباك.",
+          "es": "Una fuga del vecino de arriba me inundó el baño, así que estoy colocando cubos y esperando al fontanero.",
+          "fr": "Une fuite du voisin du dessus a inondé ma salle de bain, je passe mon temps à poser des bassines en attendant le plombier."
+        },
+        {
+          "pl": "Zrobiłem sobie gorącą herbatę, wszedłem pod koc i po prostu nie mam w sobie woli walki z dzisiejszą pogodą.",
+          "en": "I made hot tea, crawled under my blanket, and simply lack the spiritual fortitude to face today's weather.",
+          "ar": "صنعت شاياً ساخناً ودخلت تحت البطانية، وبكل بساطة لا أمتلك الإرادة المعنوية لمواجهة طقس اليوم البارد.",
+          "es": "Me preparé un té caliente, me metí bajo la manta y sinceramente no tengo la fuerza de voluntad para enfrentarme al frío exterior.",
+          "fr": "Je me suis fait un thé brûlant, emmitouflé sous un plaid, et je n'ai franchement pas la force mentale d'affronter le froid dehors."
+        },
+        {
+          "pl": "Wszystkie moje wyjściowe ubrania są mokre na suszarce, a w dresie z dziurą nie wypada mi się pokazać.",
+          "en": "All my going-out clothes are soaking wet on the drying rack, and going out in ragged sweatpants feels illegal.",
+          "ar": "كل ملابسي المناسبة للخروج مبللة على منشر الغسيل، ولا يليق بي الخروج ببنطال رياضي ممزق.",
+          "es": "Toda mi ropa de salir está tendida y mojada, y presentarme en chándal roto me parece inaceptable.",
+          "fr": "Tous mes vêtements de sortie sèchent encore et il serait indécent de me pointer en vieux jogging troué."
+        },
+        {
+          "pl": "Muszę dokończyć pilną rzecz do pracy, o której przypomniał mi szef pięć minut przed końcem dnia.",
+          "en": "I have to finish an urgent work task my boss remembered to assign five minutes before clock-out time.",
+          "ar": "عليّ إنهاء مهمة عمل عاجلة تذكرها مديري قبل خمس دقائق فقط من نهاية الدوام الرسمي.",
+          "es": "Tengo que terminar una tarea urgente del trabajo que mi jefe recordó enviarme cinco minutos antes de salir.",
+          "fr": "Je dois boucler un dossier professionnel urgent que mon patron s'est rappelé de m'envoyer cinq minutes avant l'heure de sortie."
+        },
+        {
+          "pl": "Złapało mnie przewianie szyi i mogę patrzeć tylko w jednym kierunku, więc rozmowa byłaby dość niezręczna.",
+          "en": "I got a stiff neck and can only look strictly in one direction, which makes socializing extremely awkward.",
+          "ar": "أصبت بتصلب مفاجئ في الرقبة ولا يمكنني الالتفات إلا باتجاه واحد، مما سيجعل أي محادثة محرجة للغاية.",
+          "es": "Tengo una tortícolis tremenda y solo puedo mirar en una dirección, así que socializar sería bastante incómodo.",
+          "fr": "J'ai un torticolis carabiné et je ne peux regarder que tout droit, ce qui rendrait toute conversation très bizarre."
+        },
+        {
+          "pl": "Dostałem ataku alergii po sprzątaniu szafy – kicham co dziesięć sekund i wyglądam jak po powodzi.",
+          "en": "I had a massive allergy flare-up after cleaning my closet; I'm sneezing every ten seconds and tearing up non-stop.",
+          "ar": "تعرضت لنوبة حساسية حادة بعد تنظيف الخزانة؛ أعطس كل عشر ثوانٍ وعيناي تفيضان بالدموع.",
+          "es": "Me dio un ataque de alergia brutal tras ordenar el armario: estornudo cada diez segundos y tengo los ojos llorosos.",
+          "fr": "J'ai eu une crise d'allergie féroce en faisant le tri dans mon placard ; j'éternue toutes les dix secondes et mes yeux pleurent."
+        },
+        {
+          "pl": "Muszę pilnie odebrać rodzeństwo z dworca, bo ich pociąg złapał gigantyczne opóźnienie.",
+          "en": "I urgently have to pick up my sibling from the station because their train suffered a massive delay.",
+          "ar": "عليّ الإسراع لنقل أخي من محطة القطار بسبب تأخير هائل تعرضت له رحلته.",
+          "es": "Tengo que ir urgentemente a buscar a mi hermano a la estación porque su tren sufrió un retraso enorme.",
+          "fr": "Je dois impérativement récupérer mon frère à la gare car son train a accumulé un retard phénoménal."
+        },
+        {
+          "pl": "Zatrzasnął mi się zamek w drzwiach wejściowych i boję się wyjść, dopóki ktoś tego nie naprawi.",
+          "en": "The lock on my front door jammed and I'm afraid to step out until someone fixes it.",
+          "ar": "تعطل قفل باب شقتي وأخشى الخروج وتركه مفتوحاً حتى يأتي أحد لإصلاحه.",
+          "es": "Se atascó la cerradura de mi puerta principal y me da miedo salir hasta que alguien la arregle.",
+          "fr": "La serrure de ma porte d'entrée s'est coincée et je crains de sortir tant que ce n'est pas réparé."
+        },
+        {
+          "pl": "Mam dzisiaj absolutny detoks od ekranów i ludzi – mój mózg dosłownie paruje po całym tygodniu.",
+          "en": "I'm having a total sensory and digital detox tonight; my brain is genuinely steaming from the week.",
+          "ar": "أخوض الليلة تجربة التخلص التام من السموم الرقمية والاجتماعية؛ عقلي مشتت تماماً بعد أسبوع حافل.",
+          "es": "Esta noche estoy haciendo una desintoxicación digital y social total; mi cabeza echa humo tras toda la semana.",
+          "fr": "Je fais une détox numérique et sociale absolue ce soir ; mon cerveau est en surchauffe après cette semaine."
+        },
+        {
+          "pl": "Mój pies ma dziś lęk separacyjny po burzy i piszczy, ilekroć tylko dotknę klamki od drzwi.",
+          "en": "My dog has severe storm-induced separation anxiety today and whines whenever I even look at the door handle.",
+          "ar": "يعاني كلبي اليوم من قلق الانفصال بسبب العاصفة الأخيرة وينوح بمجرد أن ألمس مقبض الباب.",
+          "es": "Mi perro tiene ansiedad por separación tras la tormenta de hoy y gime en cuanto toco el pomo de la puerta.",
+          "fr": "Mon chien souffre d'anxiété de séparation après l'orage d'aujourd'hui et gémit dès que j'effleure la poignée de la porte."
+        },
+        {
+          "pl": "Rozładował mi się telefon, zgubiłem ładowarkę i muszę czekać, aż sąsiad pożyczy mi zapasowy kabel.",
+          "en": "My phone died, I misplaced my charger, and I'm stuck waiting for a neighbor to lend me a spare cable.",
+          "ar": "نفدت بطارية هاتفي وأضعت الشاحن، وأنا عالق في انتظار جاري ليعيرني كابلاً احتياطياً.",
+          "es": "Se me apagó el móvil, perdí el cargador y estoy esperando a que mi vecino me preste un cable de repuesto.",
+          "fr": "Mon téléphone est à plat, j'ai égaré mon chargeur et j'attends qu'un voisin me prête un câble de rechange."
+        }
+      ]
+    },
+    "work": {
+      "name": {
+        "pl": "Praca",
+        "en": "Work",
+        "ar": "العمل",
+        "es": "Trabajo",
+        "fr": "Travail"
+      },
+      "excuses": [
+        {
+          "pl": "W mojej dzielnicy padł światłowód, operator szacuje naprawę na kilka godzin, a hotspot z telefonu gubi zasięg.",
+          "en": "The fiber internet went down across my entire neighborhood; the ISP expects repairs to take hours and cellular hotspot has no reception.",
+          "ar": "انقطعت شبكة الألياف الضوئية في منطقتي بأكملها؛ وتقدر الشركة المشغلة الإصلاح بعدة ساعات ولا توجد تغطية لشبكة الهاتف.",
+          "es": "Se cayó la fibra óptica en todo mi barrio; la compañía estima varias horas de reparación y la zona no tiene cobertura móvil.",
+          "fr": "La fibre est coupée dans tout mon quartier ; le fournisseur annonce plusieurs heures de panne et le partage de connexion ne capte rien."
+        },
+        {
+          "pl": "Aktualizacja systemu zacięła się na 47% z komunikatem 'Nie wyłączaj komputera' i nie pozwala mi wejść do pulpitu.",
+          "en": "An OS update got stuck at 47% with a strict 'Do not turn off your computer' prompt, locking me out of my desktop completely.",
+          "ar": "علِق تحديث نظام التشغيل عند نسبة 47% مع تحذير صارم بعدم إيقاف التشغيل، مما منعني تماماً من الوصول إلى سطح المكتب.",
+          "es": "Una actualización del sistema se quedó congelada al 47% con el aviso de no apagar el equipo, bloqueándome el acceso por completo.",
+          "fr": "Une mise à jour système est bloquée à 47 % avec la consigne de ne pas éteindre l'ordinateur, m'empêchant totalement d'accéder au bureau."
+        },
+        {
+          "pl": "Zalałem klawiaturę herbatą z cytryną – połowa klawiszy nie reaguje, a druga wpisuje losowe ciągi znaków.",
+          "en": "I spilled lemon tea all over my keyboard; half the keys are dead and the other half type random strings of symbols.",
+          "ar": "سكبت شاياً بالليمون على لوحة المفاتيح؛ نصف الأزرار لا يستجيب والنصف الآخر يكتب رموزاً عشوائية لا معنى لها.",
+          "es": "Derramé té con limón sobre el teclado; la mitad de las teclas no responden y la otra mitad escribe caracteres aleatorios.",
+          "fr": "J'ai renversé du thé au citron sur mon clavier ; la moitié des touches ne répond plus et l'autre tape des suites de caractères aléatoires."
+        },
+        {
+          "pl": "Złapałem gwałtowne zatrucie pokarmowe po wczorajszej kolacji i nie jestem w stanie odejść od łazienki na krok.",
+          "en": "I caught severe food poisoning from last night's dinner and am physically unable to stray more than a few feet from the bathroom.",
+          "ar": "أصبت بتسمم غذائي حاد بسبب عشاء البارحة، ولا يمكنني الابتعاد عن الحمام لأكثر من خطوات معدودة.",
+          "es": "He pillado una intoxicación alimentaria brutal con la cena de anoche y físicamente no puedo alejarme del baño.",
+          "fr": "J'ai attrapé une intoxication alimentaire fulgurante après le dîner d'hier et je suis incapable de m'éloigner des toilettes."
+        },
+        {
+          "pl": "W budynku nastąpiła awaria pionu elektrycznego, wywaliło bezpieczniki główne i czekam na pogotowie energetyczne.",
+          "en": "A power surge in the building tripped the main circuit breakers; I'm currently waiting on emergency electrical services.",
+          "ar": "وقع خلل كهربائي في مبنى السكن أدى إلى فصل القواطع الرئيسية، وأنا حالياً بانتظار طوارئ الكهرباء.",
+          "es": "Hubo una avería eléctrica general en el edificio que fundió los diferenciales y estoy esperando al servicio de urgencias.",
+          "fr": "Une surtension dans l'immeuble a fait sauter le disjoncteur général, et j'attends actuellement les services d'urgence électrique."
+        },
+        {
+          "pl": "Utknąłem w windzie między piętrami w drodze do biura; technik jest już w drodze, ale ma zająć mu to godzinę.",
+          "en": "I got stuck in the elevator between floors on my way to the office; the technician is dispatched but ETA is at least an hour.",
+          "ar": "علق المصعد بي بين طابقين في طريقي إلى المكتب؛ تم إبلاغ فني الصيانة وهو في الطريق لكن الوصول سيستغرق ساعة على الأقل.",
+          "es": "Me quedé atrapado en el ascensor entre dos plantas camino de la oficina; el técnico ya viene pero tardará al menos una hora.",
+          "fr": "Je suis coincé dans l'ascenseur entre deux étages en partant au bureau ; le technicien est en route mais annonce une heure d'attente."
+        },
+        {
+          "pl": "Dopadło mnie ostre zapalenie spojówek – oczy mi łzawią i nie jestem w stanie patrzeć na ekran dłużej niż minutę.",
+          "en": "I woke up with acute conjunctivitis; my eyes are watering constantly and I cannot look at monitors for more than a minute.",
+          "ar": "استيقظت مصاباً بالتهاب حاد في ملتحمة العين؛ تفيض عيناي بالدموع ولا أقوى على النظر إلى الشاشة لأكثر من دقيقة واحدة.",
+          "es": "Me he despertado con conjuntivitis aguda; me lloran los ojos sin parar y no puedo mirar una pantalla más de un minuto.",
+          "fr": "Je me suis réveillé avec une conjonctivite aiguë ; mes yeux pleurent sans arrêt et je suis incapable de fixer un écran plus d'une minute."
+        },
+        {
+          "pl": "Pękł wężyk pod zlewem, odciąłem główny zawór wody i muszę czekać na hydraulika, żeby nie zalać sąsiadów.",
+          "en": "A pipe burst under my kitchen sink; I shut off the main water valve and need to wait for a plumber to avoid ruining neighbors' flats.",
+          "ar": "انفجر أنبوب تحت حوض المطبخ؛ أغلقت المحبس الرئيسي ويجب أن أنتظر السباك لتجنب إغراق شقق الجيران.",
+          "es": "Se reventó una tubería bajo el fregadero; corté la llave de paso principal y tengo que esperar al fontanero para no inundar a los vecinos.",
+          "fr": "Un raccord a éclaté sous l'évier ; j'ai coupé l'arrivée d'eau générale et je dois attendre le plombier pour ne pas inonder l'immeuble."
+        },
+        {
+          "pl": "Mój firmowy laptop wpadł w niekończącą się pętlę niebieskich ekranów po wczorajszej łatce bezpieczeństwa.",
+          "en": "My work laptop entered an endless Blue Screen loop right after installing yesterday's mandated security patch.",
+          "ar": "دخل جهاز الحاسوب المحمول الخاص بالعمل في حلقة لا تنتهي من 'شاشات الموت الزرقاء' إثر تثبيت التحديث الأمني الإلزامي بالأمس.",
+          "es": "El portátil del trabajo entró en un bucle interminable de pantallas azules tras instalar el parche de seguridad obligatorio de ayer.",
+          "fr": "Mon ordinateur professionnel s'est enfermé dans une boucle infinie d'écrans bleus après le correctif de sécurité d'hier."
+        },
+        {
+          "pl": "Mam potężny atak migreny z aurą i światłowstrętem – lekarz bezwzględnie nakazał mi leżenie w zaciemnieniu.",
+          "en": "I'm having a severe migraine with visual aura and photophobia; my doctor strictly ordered complete rest in darkness.",
+          "ar": "أعاني من نوبة صداع نصفي حادة مصحوبة بهالة بصرية وتحسس مفرط للضوء؛ ونصحني الطبيب بالراحة التامة في الظلام.",
+          "es": "Tengo un ataque de migraña brutal con aura y fotofobia; el médico me ha ordenado reposo absoluto a oscuras.",
+          "fr": "Je subis une migraine carabinée avec aura et photophobie ; le médecin m'a formellement prescrit le repos dans l'obscurité totale."
+        },
+        {
+          "pl": "Samochód odmówił posłuszeństwa – rozrusznik milczy, a laweta pomocy drogowej ma ponad dwugodzinne opóźnienie.",
+          "en": "My car won't start at all; the starter motor is dead and roadside assistance has announced a two-hour delay.",
+          "ar": "تعطلت سيارتي تماماً ولم يعد محرك التشغيل يستجيب، وخدمة المساعدة على الطريق أعلنت تأخيراً يتجاوز الساعتين.",
+          "es": "El coche no arranca en absoluto; el motor de arranque ha muerto y la grúa de asistencia lleva más de dos horas de retraso.",
+          "fr": "Ma voiture refuse de démarrer ; le démarreur ne répond plus et la dépanneuse annonce plus de deux heures de retard."
+        },
+        {
+          "pl": "Po resecie telefonu utraciłem dostęp do aplikacji 2FA i czekam na zresetowanie uprawnień przez Helpdesk.",
+          "en": "Following a phone reset, I lost access to my 2FA authentication tokens and am stranded waiting for an IT Helpdesk override.",
+          "ar": "بعد إعادة ضبط هاتفي، فقدت الوصول إلى رموز المصادقة الثنائية (2FA) وأنا عالق في انتظار الدعم الفني لإعادة تعيين الصلاحيات.",
+          "es": "Tras restaurar el móvil perdí el acceso al autenticador 2FA y dependo de que el soporte técnico me restablezca los permisos.",
+          "fr": "Après une réinitialisation de mon téléphone, j'ai perdu mes accès 2FA et je suis bloqué en attendant que le support informatique réinitialise mes droits."
+        },
+        {
+          "pl": "Mój pies zjadł coś toksycznego na porannym spacerze i pędzę z nim do kliniki weterynaryjnej na płukanie żołądka.",
+          "en": "My dog ingested something toxic during our morning walk; I'm rushing him to the emergency vet for stomach pumping.",
+          "ar": "ابتلع كلبي مادة سامة أثناء نزهة الصباح، وأنا أهرع به الآن إلى العيادة البيطرية الطارئة لغسيل المعدة.",
+          "es": "Mi perro ingirió algo tóxico en el paseo matutino y voy de camino a urgencias veterinarias para un lavado gástrico.",
+          "fr": "Mon chien a avalé un produit toxique pendant sa promenade matinale et je file aux urgences vétérinaires pour un lavage d'estomac."
+        },
+        {
+          "pl": "Mam ostrą reakcję alergiczną na nowy lek przeciwwirusowy – twarz mi spuchła i muszę udać się do przychodni.",
+          "en": "I suffered an acute allergic reaction to a new medication; my face swelled up and I need to visit an urgent care clinic immediately.",
+          "ar": "أصبت برد فعل تحسسي حاد تجاه دواء جديد؛ تورم وجهي ويجب عليّ التوجه فوراً إلى عيادة الرعاية العاجلة.",
+          "es": "He tenido una reacción alérgica aguda a un medicamento; se me ha hinchado la cara y debo acudir a un centro médico de urgencia.",
+          "fr": "J'ai fait une violente réaction allergique à un nouveau traitement ; mon visage a gonflé et je dois aller aux urgences médicales."
+        },
+        {
+          "pl": "Zaciął się zamek patentowy w drzwiach wejściowych i jestem uwięziony we własnym mieszkaniu do przyjazdu ślusarza.",
+          "en": "The deadbolt on my front door jammed solid; I am physically locked inside my own home until the locksmith arrives.",
+          "ar": "تعطل القفل الفولاذي لباب الشقة الرئيسي؛ وأنا محتجز فعلياً داخل منزلي بانتظار وصول النجار أو صانع الأقفال.",
+          "es": "Se ha bloqueado la cerradura de seguridad y estoy físicamente atrapado dentro de mi casa esperando al cerrajero.",
+          "fr": "La serrure de sécurité de ma porte s'est complètement grippée ; je suis enfermé chez moi jusqu'à l'intervention du serrurier."
+        },
+        {
+          "pl": "Przewiało mi odcinek lędźwiowy kręgosłupa – każdy ruch wywołuje paraliżujący ból i nie mogę usiedzieć na krześle.",
+          "en": "I threw out my lower back; every movement causes debilitating spasms and sitting in an office chair is impossible.",
+          "ar": "أصبت بتقلص عضلي حاد في أسفل الظهر؛ أي حركة تسبب ألماً شديداً والجلوس على كرسي المكتب بات مستحيلاً.",
+          "es": "Me ha dado un tirón insoportable en las lumbares; cualquier movimiento es doloroso y no puedo permanecer sentado en la silla.",
+          "fr": "Je me suis bloqué le bas du dos ; le moindre mouvement déclenche des spasmes et il m'est impossible de rester assis au bureau."
+        },
+        {
+          "pl": "Moje dziecko dostało nagle wysokiej gorączki w nocy i muszę zostać z nim w domu do czasu wizyty lekarza pediatry.",
+          "en": "My child developed a sudden high fever overnight; I must stay home to provide care until the pediatrician examines them.",
+          "ar": "أصيب طفلي بحمى شديدة ومفاجئة الليلة الماضية؛ ويجب أن أبقى برفقته في المنزل حتى يفحصه طبيب الأطفال.",
+          "es": "Mi hijo se puso con fiebre muy alta durante la noche y tengo que quedarme en casa a cuidarlo hasta la visita del pediatra.",
+          "fr": "Mon enfant est monté à plus de 39° de fièvre cette nuit et je dois rester à ses côtés jusqu'à la consultation chez le pédiatre."
+        },
+        {
+          "pl": "Pociąg podmiejski utknął w szczerym polu z powodu awarii sieci trakcyjnej i nie wiadomo, kiedy ruszymy.",
+          "en": "The commuter train broke down in the middle of nowhere due to overhead wire damage; no ETA on when we will move.",
+          "ar": "تعطل قطار الضواحي في منطقة نائية بسبب انقطاع خطوط الكهرباء العلوية؛ ولا يوجد موعد محدد لإعادة الحركة.",
+          "es": "El tren de cercanías se ha quedado parado en mitad del campo por una avería en la catenaria; no hay previsión de reanudar la marcha.",
+          "fr": "Le train de banlieue est tombé en panne en pleine voie suite à un arrachement de caténaire ; aucun délai de reprise n'est annoncé."
+        },
+        {
+          "pl": "Nocna burza spaliła zasilacz od mojego routera – muszę jechać do sklepu po nowy sprzęt, by odzyskać łączność.",
+          "en": "A nighttime lightning storm fried my router's power supply; I have to run to the electronics store to buy a replacement.",
+          "ar": "تسببت عاصفة رعدية ليلية في احتراق محول الطاقة لجهاز التوجيه (الراوتر)؛ ويجب أن أشتري بديلاً فوراً لاستعادة الاتصال.",
+          "es": "Una tormenta eléctrica nocturna quemó la fuente de alimentación de mi router; tengo que ir a comprar un recambio para recuperar la conexión.",
+          "fr": "L'orage de cette nuit a grillé le bloc d'alimentation de ma box internet ; je dois filer en magasin en acheter un autre pour récupérer la connexion."
+        },
+        {
+          "pl": "Obudziłem się z całkowitą utratą głosu po infekcji krtani – nie jestem w stanie prowadzić żadnych spotkań ani rozmów.",
+          "en": "I woke up with acute laryngitis and have completely lost my voice; I cannot speak or participate in calls today.",
+          "ar": "استيقظت مصاباً بالتهاب حاد في الحنجرة وفقدت صوتي تماماً؛ ولا أستطيع التحدث أو المشاركة في أي اجتماعات اليوم.",
+          "es": "Me he levantado con una laringitis aguda y he perdido la voz por completo; hoy me resulta imposible hablar o entrar a reuniones.",
+          "fr": "Je me suis réveillé avec une extinction de voix totale causée par une laryngite ; je suis dans l'incapacité de parler ou d'animer des réunions."
+        }
+      ]
+    },
+    "school": {
+      "name": {
+        "pl": "Szkoła i uczelnia",
+        "en": "School and University",
+        "ar": "المدرسة والجامعة",
+        "es": "Escuela y universidad",
+        "fr": "École et université"
+      },
+      "excuses": [
+        {
+          "pl": "Mój pendrive z prezentacją zaliczeniową uległ awarii i próbuję odzyskać pliki programem ratunkowym.",
+          "en": "The USB flash drive containing my graded presentation got corrupted, and I'm scrambling to salvage it with recovery software.",
+          "ar": "تعرضت وحدة الذاكرة المحمولة التي تحوي عرضي التقديمي للتلف، وأحاول جاهداً استعادة الملفات ببرامج استرجاع البيانات.",
+          "es": "El pendrive que contenía mi presentación evaluable se corrompió y estoy intentando recuperar los archivos con un programa de rescate.",
+          "fr": "La clé USB contenant mon exposé noté est corrompue et j'essaie désespérément de récupérer les fichiers avec un logiciel dédié."
+        },
+        {
+          "pl": "Mój pies naprawdę pogryzł moje notatki i ładowarkę do laptopa – tym razem to niestety nie jest metafora.",
+          "en": "My dog genuinely chewed through my handwritten study notes and laptop charger; for once, it is not a metaphor.",
+          "ar": "قام كلبي بالفعل بتمزيق دفاتري ومضغ سلك شاحن الحاسوب؛ وهذه المرة ليست مجرد مزحة كلاسيكية بل حقيقة مؤسفة.",
+          "es": "Mi perro de verdad se comió mis apuntes y mordió el cargador del portátil; por una vez no es una metáfora.",
+          "fr": "Mon chien a réellement déchiqueté mes fiches de révision et croqué mon chargeur d'ordinateur ; ce n'est hélas pas une blague."
+        },
+        {
+          "pl": "Uczyłem się do czwartej rano, po czym mój organizm zignorował cztery kolejne budziki i obudziłem się w południe.",
+          "en": "I pulled a study session until 4 AM, after which my body completely slept through four alarms, waking up at noon.",
+          "ar": "واصلت الدراسة حتى الرابعة فجراً، ثم تجاهل جسدي المنهك أربعة منبهات متتالية لأستيقظ في منتصف الظهيرة.",
+          "es": "Estuve estudiando hasta las cuatro de la madrugada y mi cuerpo ignoró cuatro alarmas seguidas, despertándome a mediodía.",
+          "fr": "J'ai révisé jusqu'à 4 heures du matin et mon corps a royalement ignoré quatre réveils d'affilée pour ne s'éveiller qu'à midi."
+        },
+        {
+          "pl": "Zgubiłem okulary korekcyjne, a bez nich nie jestem w stanie przeczytać niczego z tablicy ani z podręcznika.",
+          "en": "I misplaced my prescription glasses, and without them, I physically cannot read anything on the board or in the textbook.",
+          "ar": "أضعت نظارتي الطبية، ومن دونها لا أستطيع قراءة أي شيء مكتوب على السبورة أو في الكتاب المدرسي.",
+          "es": "He perdido mis gafas graduadas y sin ellas soy completamente incapaz de ver la pizarra o leer los apuntes.",
+          "fr": "J'ai égaré mes lunettes de vue et sans elles, je suis totalement incapable de lire ce qui est écrit au tableau ou sur mon livre."
+        },
+        {
+          "pl": "Ktoś zastawił mój samochód na osiedlowym parkingu i nie mam jak ruszyć, dopóki właściciel nie wróci.",
+          "en": "Someone double-parked behind my car in the residential lot, leaving me completely blocked until they return.",
+          "ar": "أوقف أحدهم سيارته خلف سيارتي في موقف الحي وأغلق المخرج تماماً، ولا يمكنني التحرك حتى يعود صاحبها.",
+          "es": "Alguien aparcó en doble fila bloqueando mi coche en el garaje y no puedo salir hasta que el dueño aparezca.",
+          "fr": "Quelqu'un s'est garé en double file derrière ma voiture sur le parking et je suis bloqué tant que le propriétaire ne revient pas."
+        },
+        {
+          "pl": "Zwichnąłem kostkę schodząc rano ze schodów i właśnie czekam na prześwietlenie w kolejce na ostrym dyżurze.",
+          "en": "I twisted my ankle tumbling down the stairs this morning and am currently waiting for an X-ray in the emergency room.",
+          "ar": "التوى كاحلي أثناء نزولي الدرج هذا الصباح، وأنا حالياً بانتظار إجراء أشعة سينية في قسم الطوارئ.",
+          "es": "Me torcí el tobillo bajando las escaleras esta mañana y estoy esperando a que me hagan una radiografía en urgencias.",
+          "fr": "Je me suis foulé la cheville en descendant les escaliers ce matin et j'attends une radio aux urgences."
+        },
+        {
+          "pl": "W portalu uczelnianym pojawił się błąd systemowy, który oznaczył moje konto jako nieaktywne i nie mam wejścia do sal.",
+          "en": "A glitch in the university portal flagged my student account as inactive, revoking my building card access.",
+          "ar": "حدث خطأ برمجي في بوابة الجامعة الإلكترونية صنف حسابي الطلابي كغير نشط، مما ألغى تصريح دخولي للمباني.",
+          "es": "Un error en el portal universitario bloqueó mi cuenta de estudiante y mi tarjeta de acceso no abre las aulas.",
+          "fr": "Un bug sur le portail universitaire a désactivé mon profil étudiant et ma carte d'accès n'ouvre plus les salles de cours."
+        },
+        {
+          "pl": "Złapałem gumę na rowerze w połowie trasy na kampus i muszę prowadzić rower kilka kilometrów do serwisu.",
+          "en": "I got a flat bicycle tire halfway to campus and have to push the bike for miles to the nearest repair shop.",
+          "ar": "ثُقِب إطار دراجتي الهوائية في منتصف الطريق إلى الحرم الجامعي، ويجب أن أجرها لعدة كيلومترات لأقرب ورشة صيانة.",
+          "es": "Se me pinchó la rueda de la bicicleta a mitad de camino al campus y tengo que empujarla varios kilómetros hasta el taller.",
+          "fr": "J'ai crevé à vélo à mi-chemin du campus et je dois le pousser sur plusieurs kilomètres jusqu'au réparateur."
+        },
+        {
+          "pl": "Podczas ulewy przemókł mi plecak wraz ze wszystkimi projektami rysunkowymi i suszę je suszarką.",
+          "en": "A sudden downpour soaked through my backpack, ruining all my drafted assignments which I am now blow-drying.",
+          "ar": "غمرت أمطار مفاجئة حقيبتي المدرسية وأتلفت كافة رسومات ومخططات مشروعي، وأحاول تجفيفها بمجفف الشعر الآن.",
+          "es": "Una tromba de agua empapó mi mochila con todas las láminas de dibujo del proyecto y estoy intentando secarlas con secador.",
+          "fr": "Une averse torrentielle a traversé mon sac et trempé tous mes travaux graphiques ; je passe ma matinée à les sécher au sèche-cheveux."
+        },
+        {
+          "pl": "Starosta grupy przekazał błędną informację, że zajęcia zostały odwołane przez wykładowcę, i dowiedziałem się za późno.",
+          "en": "The class representative sent out an erroneous message stating lectures were cancelled, and I found out too late.",
+          "ar": "نقل ممثل الدفعة الطلابية خبراً خاطئاً يفيد بإلغاء المحاضرة من قبل الأستاذ، ولم أكتشف الحقيقة إلا بعد فوات الأوان.",
+          "es": "El delegado de clase avisó erróneamente de que el profesor había cancelado la clase y me enteré demasiado tarde.",
+          "fr": "Le délégué a fait passer une fausse information annulant le cours magistral et je n'ai appris la vérité que trop tard."
+        },
+        {
+          "pl": "Zacięła się jedyna drukarka w punkcie ksero tuż przed oddaniem sprawozdania i kolejka ciągnie się za budynek.",
+          "en": "The copy shop's sole printing machine jammed minutes before report submission, leaving a massive backlog.",
+          "ar": "تعطلت طابعة مركز النسخ الوحيدة قبل دقائق من موعد تسليم التقرير، وتراص الطلاب في طابور طويل خارج المبنى.",
+          "es": "Se averió la única impresora de la copistería justo antes de entregar la memoria y la cola da la vuelta al edificio.",
+          "fr": "L'unique imprimante du centre de reprographie a bourré juste avant l'heure du rendu et la file d'attente s'allonge dehors."
+        },
+        {
+          "pl": "Muszę zająć się młodszym rodzeństwem, bo rodzice utknęli w korku z powodu karambolu na autostradzie.",
+          "en": "I have to babysit my younger sibling because our parents are stranded in a major highway pileup traffic jam.",
+          "ar": "عليّ رعاية أخي الصغير لأن والديّ عالقان في ازدحام مروري خانق على الطريق السريع بسبب حادث سير كبير.",
+          "es": "Tengo que cuidar de mi hermano pequeño porque mis padres se quedaron atrapados en un accidente múltiple en la autovía.",
+          "fr": "Je dois garder mon petit frère car mes parents sont coincés dans un carambolage monstre sur l'autoroute."
+        },
+        {
+          "pl": "Mój bilet miesięczny i dokumenty wypadły mi z kieszeni w autobusie i muszę czekać w biurze rzeczy znalezionych.",
+          "en": "My monthly transit pass and ID dropped from my pocket on the bus, so I'm filing a report at the lost property office.",
+          "ar": "سقطت بطاقة مواصلاتي الشهرية وهوّيتي من جيبي في الحافلة، وأنا بانتظار مراجعة مكتب المفقودات لاسترجاعها.",
+          "es": "Se me cayeron el abono transporte y la documentación en el autobús y tengo que esperar en la oficina de objetos perdidos.",
+          "fr": "Mon pass transport et ma pièce d'identité sont tombés de ma poche dans le bus et je fais une réclamation aux objets trouvés."
+        },
+        {
+          "pl": "Mam ostry atak zatok – pochylenie głowy nad ławką wywołuje nieznośne pulsowanie i zawroty głowy.",
+          "en": "I'm having a severe sinus flare-up; bending my head over a desk causes excruciating throbbing and dizziness.",
+          "ar": "أعاني من التهاب حاد في الجيوب الأنفية؛ وانحناء رأسي فوق المقعد الدراسي يسبب نبضاً حاداً ودوخة لا تحتمل.",
+          "es": "Tengo una crisis aguda de sinusitis; inclinar la cabeza hacia el pupitre me produce un dolor punzante y mareos.",
+          "fr": "J'ai une crise féroce de sinusite ; le fait de pencher la tête sur la table m'inflige des vertiges et des pulsations insoutenables."
+        },
+        {
+          "pl": "Rano w mieszkaniu pękł grzejnik, zalało podłogę i czekam na spółdzielnię mieszkaniową z hydraulicznym uszczelnieniem.",
+          "en": "A radiator cracked in my apartment this morning, flooding the room; I'm awaiting the building maintenance crew.",
+          "ar": "انفجر رادياتير التدفئة في الشقة هذا الصباح وتدفقت المياه على الأرض، وأنا أنتظر فريق صيانة المبنى لإصلاحه.",
+          "es": "Esta mañana se fisuró un radiador inundando el suelo y tengo que esperar a los técnicos de la comunidad de vecinos.",
+          "fr": "Un radiateur s'est fissuré ce matin dans l'appartement, inondant le sol, et j'attends l'équipe technique de l'immeuble."
+        },
+        {
+          "pl": "Moja karta miejska została zablokowana przez błąd transakcji i zostałem wyproszony z tramwaju bez gotówki na bilet.",
+          "en": "My transit card was declined due to a payment processing error, and I was forced off the tram without cash for a fare.",
+          "ar": "رُفضت بطاقتي الذكية للمواصلات بسبب خطأ مصرفي، وأُجبرت على النزول من الترام لعدم توفر سيولة نقدية معي لشراء تذكرة.",
+          "es": "La tarjeta de transporte me dio error de cobro y el revisor me hizo bajar del tranvía al no llevar efectivo.",
+          "fr": "Mon titre de transport n'est pas passé suite à un bug bancaire et j'ai dû descendre du tram faute de monnaie pour un billet."
+        },
+        {
+          "pl": "Zatrzasnąłem plecak z legitymacją i książkami w szafce szkolnej, a klucz zapasowy ma tylko woźny na popołudniowej zmianie.",
+          "en": "My bag and textbooks are locked in the school locker, and only the afternoon-shift custodian possesses the master key.",
+          "ar": "أُقفل قفل خزانتي المدرسية وبداخله كتبي وهوّيتي، ومفتاح الطوارئ بحوزة الحارس الذي يبدأ مناوبته بعد الظهر فقط.",
+          "es": "Se quedó atascada la taquilla con mis libros y carnet dentro, y la llave maestra solo la tiene el conserje del turno de tarde.",
+          "fr": "Mon sac et mes manuels sont restés verrouillés dans mon casier, et seul le gardien de l'après-midi a le passe-partout."
+        },
+        {
+          "pl": "W moim budynku wyłączono ogrzewanie przy ujemnej temperaturze i mam dreszcze, czekając na dogrzanie mieszkania.",
+          "en": "The heating failed in my apartment building during sub-zero cold, and I'm shivering under three layers of duvets.",
+          "ar": "انقطعت التدفئة المركزية في المبنى وسط درجات حرارة متجمدة، وأنا أرتجف برداً بانتظار إعادة تشغيل المرجل.",
+          "es": "Se averió la calefacción central del edificio con temperaturas bajo cero y estoy tiritando bajo tres mantas.",
+          "fr": "Le chauffage central de l'immeuble a lâché par température négative et je grelotte sous plusieurs couettes en attendant la réparation."
+        },
+        {
+          "pl": "Miałem incydent z zatrzaśnięciem się w szkolnej toalecie – zamek odmówił współpracy i czekam na rozkręcenie klamki.",
+          "en": "The restroom stall lock jammed completely shut, and I'm literally trapped waiting for someone to unscrew the latch.",
+          "ar": "علِق قفل باب المرحاض تماماً، وأنا محتجز بالداخل بانتظار من يفك المقبض بمفك براغٍ.",
+          "es": "El pestillo de la puerta del baño se atascó por completo y estoy atrapado dentro esperando que desmonten la manilla.",
+          "fr": "Le verrou des toilettes s'est complètement coincé et je suis enfermé à l'intérieur en attendant qu'on démonte la serrure."
+        },
+        {
+          "pl": "Przez gęstą mgłę wstrzymano ruch podmiejskich autobusów i wszystkie dojazdy do centrum są sparaliżowane.",
+          "en": "Suburban bus lines were halted because of heavy fog, completely paralyzing public transit toward the university.",
+          "ar": "أُوقفت حركة حافلات الضواحي بسبب الضباب الكثيف وانعدام الرؤية، مما شل حركة التنقل نحو الجامعة تماماً.",
+          "es": "Suspendieron las líneas de autobús interurbanas por una niebla densísima, dejando colapsado el acceso a la facultad.",
+          "fr": "La circulation des bus a été interrompue en raison d'un brouillard impénétrable, paralysant tout accès vers la faculté."
+        }
+      ]
+    },
+    "fitness": {
+      "name": {
+        "pl": "Trening i siłownia",
+        "en": "Fitness and Gym",
+        "ar": "التمارين الرياضية والجيم",
+        "es": "Entrenamiento y gimnasio",
+        "fr": "Sport et salle de sport"
+      },
+      "excuses": [
+        {
+          "pl": "Zakwasy po poprzednim treningu nóg są tak potężne, że ze schodów schodzę tyłem i trzymając się oburącz poręczy.",
+          "en": "The delayed onset muscle soreness from leg day is so brutal that I have to walk down stairs backwards holding both railings.",
+          "ar": "ألم العضلات المتأخر بعد تمرين الساقين مؤلم لدرجة تجبرني على نزول الدرج بظهري ممسكاً بكلتا يدي بالدرابزين.",
+          "es": "Las agujetas del día de piernas son tan brutales que tengo que bajar las escaleras de espaldas agarrándome con ambas manos.",
+          "fr": "Les courbatures après la séance jambes sont si violentes que je descends les escaliers à reculons en m'agrippant des deux mains."
+        },
+        {
+          "pl": "Zostawiłem buty treningowe w bagażniku samochodu znajomego, który wyjechał na cały weekend za miasto.",
+          "en": "I accidentally left my workout sneakers in the trunk of a friend's car who just drove out of town for the weekend.",
+          "ar": "تركت حذائي الرياضي سهواً في صندوق سيارة صديقي الذي غادر المدينة لقضاء عطلة نهاية الأسبوع.",
+          "es": "Me dejé las zapatillas de deporte en el maletero del coche de un amigo que se ha ido todo el fin de semana fuera.",
+          "fr": "J'ai oublié mes baskets d'entraînement dans le coffre d'un ami parti en week-end à la campagne."
+        },
+        {
+          "pl": "Moja butelka z wodą rozszczelniła się w torbie sportowej i cały mój strój treningowy jest kompletnie przemoczony.",
+          "en": "My water shaker leaked inside my gym duffel bag, leaving my clean workout attire entirely soaked.",
+          "ar": "تسربت زجاجة المياه داخل حقيبتي الرياضية، مما جعل ملابس التمرين النظيفة مبللة بالكامل.",
+          "es": "Se abrió la botella de agua dentro de mi bolsa de deporte y toda la ropa de entrenar está completamente empapada.",
+          "fr": "Ma gourde a fui dans mon sac de sport et toute ma tenue d'entraînement est intégralement détrempée."
+        },
+        {
+          "pl": "W nocy złapał mnie potężny skurcz łydki i mięsień nadal pulsuje przy każdym postawieniu stopy na ziemi.",
+          "en": "I woke up to an excruciating calf cramp in the dead of night, and the muscle still spasms with every single step.",
+          "ar": "داهمني تشنج عضلي مبرح في ربلة الساق منتصف الليل، وما زالت العضلة تنبض بالألم مع كل خطوة أخطوها.",
+          "es": "Me dio un calambre terrible en el gemelo en plena noche y el músculo sigue doliéndome a cada paso que doy.",
+          "fr": "Une crampe féroce m'a réveillé en pleine nuit au mollet et le muscle continue de me lancer à chaque pas."
+        },
+        {
+          "pl": "Zjadłem za ciężki posiłek tuż przed wyjściem i przy jakimkolwiek podskoku lub biegu grozi mi natychmiastowy bunt żołądka.",
+          "en": "I consumed a heavy meal far too close to workout time; any jumping or jogging will trigger an immediate gastrointestinal revolt.",
+          "ar": "تناولت وجبة دسمة وثقيلة جداً قبل موعد التمرين مباشرة؛ وأي حركة سريعة أو قفز ستؤدي لثورة هضمية عارمة.",
+          "es": "Comí demasiado pesado y tarde; cualquier intento de saltar o correr provocará una rebelión estomacal instantánea.",
+          "fr": "J'ai mangé un plat bien trop copieux juste avant de partir ; le moindre saut ou sprint déclencherait une révolte gastrique immédiate."
+        },
+        {
+          "pl": "Zapomniałem kłódki do szafki w szatni, a bez niej nie mam gdzie bezpiecznie zostawić portfela, kluczy i telefonu.",
+          "en": "I forgot my locker padlock, and without it, I have nowhere secure to stash my wallet, phone, and car keys.",
+          "ar": "نسيت قفل خزانة الملابس الرياضية، ومن دونه لا أجد مكاناً آمناً لترك محفظتي ومفاتيحي وهاتفي المحمول.",
+          "es": "Olvidé el candado de la taquilla del gimnasio y sin él no tengo dónde dejar a salvo la cartera, las llaves y el móvil.",
+          "fr": "J'ai oublié mon cadenas de vestiaire, et sans lui, je n'ai aucun endroit sûr où déposer portefeuille, clés et téléphone."
+        },
+        {
+          "pl": "Moje jedyne spodenki treningowe pękły w szwach przy pierwszym przysiadzie na rozgrzewce i musiałem natychmiast wracać.",
+          "en": "The seam on my only workout shorts gave way during the very first warm-up squat, forcing an immediate retreat home.",
+          "ar": "تمزقت خياطة سروالي الرياضي الوحيد عند أول حركة إحماء، مما اضطرني للانسحاب فوراً إلى المنزل.",
+          "es": "Se me rajó el pantalón corto por la costura en la primera sentadilla de calentamiento y tuve que retirarme a casa.",
+          "fr": "La couture de mon short de sport a craqué dès le premier squat d'échauffement, m'obligeant à rentrer dare-dare."
+        },
+        {
+          "pl": "Naciągnąłem mięsień w plecach schylając się po pilota do telewizora i nie jestem w stanie nawet zawiązać sznurówek.",
+          "en": "I tweaked a back muscle reaching down for the TV remote, and now I literally cannot bend over to tie my shoelaces.",
+          "ar": "أصبت بتمزق عضلي خفيف في ظهري أثناء الانحناء لالتقاط جهاز التحكم، وحالياً لا أقوى حتى على ربط حذائي.",
+          "es": "Me dio un tirón en la espalda al agacharme a coger el mando de la tele y ahora no puedo ni atarme los cordones.",
+          "fr": "Je me suis froissé un muscle du dos en ramassant la télécommande et je suis incapable de me baisser pour nouer mes lacets."
+        },
+        {
+          "pl": "Po wczorajszym martwym ciągu mam tak zdarte dłonie i pęcherze, że nie dam rady utrzymać żadnego gryfu ani hantli.",
+          "en": "Yesterday's deadlifts left my hands with ripped calluses and blisters; holding any barbell or dumbbell today is agonizing.",
+          "ar": "تسببت تمارين الرفعة الميتة بالأمس في تشقق كفوف يدي وظهور فقاعات جلدية تجعل إمساك أي ثقل أمراً مؤلماً للغاية.",
+          "es": "El peso muerto de ayer me dejó las manos llenas de ampollas y rozaduras; agarrar cualquier mancuerna hoy es un suplicio.",
+          "fr": "Le soulevé de terre d'hier m'a déchiré les paumes et couvert d'ampoules ; empoigner la moindre barre est aujourd'hui un calvaire."
+        },
+        {
+          "pl": "Siłownia ogłosiła awarię hydrauliczną w strefie pryszniców i szatni, przez co odradzają przychodzenie w godzinach szczytu.",
+          "en": "The gym announced a plumbing outage affecting all showers and locker rooms, advising members to avoid peak visits.",
+          "ar": "أعلنت إدارة النادي الرياضي عن عطل في شبكة المياه بغرف تبديل الملابس والاستحمام، ونبهت بتجنب الحضور ساعات الذروة.",
+          "es": "El gimnasio avisó de una avería de fontanería en duchas y vestuarios, recomendando no asistir en horas punta.",
+          "fr": "La salle de sport a annoncé une rupture de canalisation dans les douches et vestiaires, déconseillant de venir aux heures de pointe."
+        },
+        {
+          "pl": "Złapało mnie lekkie przeziębienie i chrypa – nie chcę rozsiewać zarazków ani sapiąc narażać innych klubowiczów.",
+          "en": "I'm coming down with a scratchy throat and cold symptoms; I don't want to spread germs around fellow gym-goers.",
+          "ar": "بدأت أعراض نزلة برد واحتقان بالحلق تظهر عليّ؛ ولا أريد نشر العدوى أو ممارسة الرياضة مجهداً وسط رواد الجيم.",
+          "es": "Empiezo con síntomas de resfriado y carraspera; no me parece ético ir a jadear y esparcir microbios a los demás.",
+          "fr": "J'ai un début de rhume et la gorge irritée ; je refuse de contaminer tout le monde en soufflant sur les appareils."
+        },
+        {
+          "pl": "Zapomniałem naładować słuchawek bezprzewodowych, a trening w ciszy przy dźwiękach sapania innych ludzi przekracza moje siły.",
+          "en": "My wireless earbuds are completely dead, and doing a full session in silence listening to strangers groaning is pure torture.",
+          "ar": "فرغت بطارية سماعاتي اللاسلكية تماماً، والتدريب في صمت تام وسط أصوات أنين وتنفس الآخرين عذاب نفسي لا أطيقه.",
+          "es": "Se me apagaron los auriculares inalámbricos y entrenar en silencio escuchando los gemidos de la gente supera mis fuerzas.",
+          "fr": "Mes écouteurs sans fil sont complètement à plat, et m'entraîner en silence au milieu des soupirs des autres est au-dessus de mes forces."
+        },
+        {
+          "pl": "Zgubiłem kartę magnetyczną do wejścia do klubu, a recepcja żąda opłaty za duplikat równej połowie karnetu.",
+          "en": "I misplaced my gym keycard, and the front desk insists on an extortionate replacement fee before letting me in.",
+          "ar": "أضعت بطاقة الدخول الممغنطة للنادي، ويشترط موظف الاستقبال رسوماً باهظة لإصدار بدل فاقد قبل السماح لي بالدخول.",
+          "es": "Perdí la tarjeta magnética de socio y en recepción me cobran una tarifa desorbitada por emitir un duplicado para entrar.",
+          "fr": "J'ai égaré ma carte magnétique de membre et l'accueil exige un montant exorbitant pour rééditer un pass d'accès."
+        },
+        {
+          "pl": "Zrobiłem dzisiaj ponad 15 000 kroków po twardym bruku w pracy i moje stopy oraz kolana błagają o bezruch.",
+          "en": "I logged over 15,000 steps on hard concrete while working today, and my arches and knees are begging for absolute stillness.",
+          "ar": "سرت أكثر من 15 ألف خطوة على أرضيات صلبة أثناء عملي اليوم، وقدمي وركبتاي تستغيث طلباً للراحة التامة.",
+          "es": "Hice más de 15.000 pasos sobre asfalto duro en el trabajo hoy y mis pies y rodillas ruegan quedarse quietos.",
+          "fr": "J'ai fait plus de 15 000 pas sur du béton au travail aujourd'hui et mes pieds comme mes genoux supplient qu'on les laisse en paix."
+        },
+        {
+          "pl": "Mój układ nerwowy jest dziś totalnie przeciążony stresem – mięśnie może i by chciały, ale głowa mówi zdecydowane 'nie'.",
+          "en": "My central nervous system is entirely fried from mental stress; the muscles might comply, but my brain firmly says no.",
+          "ar": "جهازي العصبي منهك بالكامل جراء الضغوط الذهنية اليوم؛ قد تستجيب العضلات لكن عقلي يرفض النهوض بشكل قاطع.",
+          "es": "Tengo el sistema nervioso saturado por el estrés laboral; los músculos responderían, pero mi cabeza dice un 'no' rotundo.",
+          "fr": "Mon système nerveux est en surchauffe totale suite au stress ; les muscles suivraient peut-être, mais ma tête dit non catégorique."
+        },
+        {
+          "pl": "Pękł pasek w moim smartwatchu, a powszechnie wiadomo, że trening niezapisany w aplikacji treningowej po prostu się nie liczy.",
+          "en": "My smartwatch strap snapped off, and as universally acknowledged, a workout unrecorded by GPS technically never happened.",
+          "ar": "انقطع سوار ساعتي الرياضية الذكية، والجميع يعلم أنه إذا لم يُسجل التمرين في التطبيق الرياضي فكأنه لم يكن أصلاً.",
+          "es": "Se rompió la correa de mi reloj deportivo y todos sabemos que un entrenamiento no registrado en la app no existe.",
+          "fr": "Le bracelet de ma montre connectée a cédé, et c'est bien connu : un entraînement non tracé sur l'application ne compte pas."
+        },
+        {
+          "pl": "Nadwyrężyłem nadgarstek przy otwieraniu szczelnie zapieczętowanego słoika z ogórkami i nie mogę chwycić gryfu.",
+          "en": "I sprained my wrist wrestling with a vacuum-sealed pickle jar, and I physically cannot support any barbell weight.",
+          "ar": "تعرض معصمي لالتواء حاد أثناء محاولتي فتح برطمان مخلل محكم الإغلاق، ولا يمكنني تثبيت أي ثقل عليه.",
+          "es": "Me forcé la muñeca intentando abrir un frasco hermético de pepinillos y ahora no tengo fuerza de agarre.",
+          "fr": "Je me suis foulé le poignet en forçant sur un bocal de cornichons sous vide et je n'ai plus aucune prise en main."
+        },
+        {
+          "pl": "W drodze na trening rozpętała się ulewa stulecia i zalało mi torbę wraz ze zmiennym obuwiem jeszcze przed dotarciem do klubu.",
+          "en": "A torrential deluge caught me en route to the gym, soaking my duffel bag and indoor shoes before I even reached the door.",
+          "ar": "داهمتني عاصفة مطرية عنيفة في طريقي للجيم، فابتلت حقيبتي وحذائي الداخلي المخصص للقاعة قبل أن أصل حتى.",
+          "es": "Me cayó encima el diluvio universal de camino al gimnasio y se empapó mi bolsa con las zapatillas antes de llegar a la puerta.",
+          "fr": "Un déluge s'est abattu sur moi sur le trajet et a trempé mon sac ainsi que mes chaussures d'intérieur avant même le pas de la porte."
+        },
+        {
+          "pl": "Wypadła mi plomba z zęba i wdychanie zimniejszego powietrza przy przyspieszonym tętnie wywołuje przeszywający ból nerwu.",
+          "en": "A tooth filling fell out and breathing in cold air under heavy cardiovascular exertion triggers sharp nerve pain.",
+          "ar": "سقطت حشوة أحد أضراسي، واستنشاق الهواء البارد مع تسارع نبضات القلب واللهاث يسبب ألماً عصبياً لا يطاق.",
+          "es": "Se me cayó un empaste dental y respirar hondo el aire frío al hiperventilar me provoca un dolor punzante en el nervio.",
+          "fr": "J'ai perdu un plombage dentaire et inspirer de l'air frais en plein effort cardio déclenche une douleur nerveuse insoutenable."
+        },
+        {
+          "pl": "Mój organizm wszedł w stan kryzysu energetycznego – bez porcji węglowodanów i drzemki na macie po prostu zasnę na ławeczce.",
+          "en": "My glycogen stores are utterly depleted; without a plate of carbs and a nap, I will literally pass out on the workout bench.",
+          "ar": "استُنزفت مخازن الطاقة بجسدي كلياً؛ وبدون وجبة نشويات سريعة وقيلولة هادئة سأسقط نائماً فوق مقعد رفع الأثقال.",
+          "es": "Me ha dado un bajón tremendo de glucosa; sin una buena ración de hidratos y una siesta me quedaría dormido en el banco.",
+          "fr": "Mes réserves d'énergie sont à sec ; sans une dose de glucides et une sieste réparatrice, je risque de m'endormir sur le banc de développé."
+        }
+      ]
+    }
+  }
+}

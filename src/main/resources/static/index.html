@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuse Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>🎭</text></svg>">
+</head>
+<body>
+    <div class="ambient-background">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <main class="app-container">
+        <!-- Top bar: Brand + Language selector -->
+        <header class="app-header">
+            <div class="brand">
+                <span class="brand-icon">🎭</span>
+                <span class="brand-name" data-i18n="title">Excuse Generator</span>
+            </div>
+
+            <div class="lang-selector-wrapper">
+                <label for="languageSelect" class="sr-only" data-i18n="langLabel">Language:</label>
+                <div class="custom-select">
+                    <span class="select-icon" id="currentFlag">🇬🇧</span>
+                    <select id="languageSelect" aria-label="Language selection">
+                        <!-- Populated by JS -->
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title" id="pageTitle" data-i18n="title">Excuse Generator</h1>
+            <p class="hero-subtitle" id="pageSubtitle" data-i18n="subtitle">
+                Need an airtight excuse? Select your language and category, then hit generate!
+            </p>
+        </section>
+
+        <!-- Category Selector -->
+        <section class="controls-section">
+            <div class="control-group">
+                <div class="control-label-row">
+                    <span class="control-label" data-i18n="catLabel">Excuse Category:</span>
+                </div>
+                <div class="category-pills" id="categoryPills">
+                    <!-- Populated dynamically via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Card Section -->
+        <section class="excuse-card-section">
+            <div class="card-glow-wrap">
+                <div class="excuse-card" id="excuseCard">
+                    <div class="card-top-bar">
+                        <div class="category-badge" id="categoryBadge">
+                            <span class="badge-icon" id="badgeIcon">✨</span>
+                            <span class="badge-text" id="badgeText">All Categories</span>
+                        </div>
+                        <button class="action-btn copy-btn" id="copyBtn" title="Copy excuse to clipboard" aria-label="Copy excuse">
+                            <svg class="btn-icon copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            <svg class="btn-icon check-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span class="btn-text" id="copyBtnText" data-i18n="copyBtn">Copy</span>
+                        </button>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="quote-mark open-quote">“</div>
+                        <p class="excuse-text placeholder-state" id="excuseText" data-i18n="initialPrompt">
+                            Click the button below to roll a perfect excuse.
+                        </p>
+                        <div class="quote-mark close-quote">”</div>
+                    </div>
+
+                    <div class="card-footer">
+                        <span class="keyboard-hint">
+                            <kbd>Space</kbd> or click below to generate
+                        </span>
+                        <div class="badge-count" id="poolCount">
+                            <span data-i18n="totalCountLabel">Total available:</span>
+                            <strong id="poolCountNumber">80</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Primary Action Button -->
+        <section class="action-section">
+            <button class="primary-generate-btn" id="generateBtn">
+                <span class="btn-sparkle">✨</span>
+                <span class="generate-label" id="generateBtnText" data-i18n="generateBtn">Generate Excuse</span>
+                <span class="btn-arrow">→</span>
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Excuse Generator &bull; Powered by Spring Boot 3 &amp; Java 21</p>
+        </footer>
+    </main>
+
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
