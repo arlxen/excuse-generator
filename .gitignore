@@ -10,7 +10,7 @@ target/
 *.zip
 *.tar.gz
 *.rar
-
+*.exe
 # Maven release plugin & dependency reduced POM
 pom.xml.tag
 pom.xml.releaseBackup
