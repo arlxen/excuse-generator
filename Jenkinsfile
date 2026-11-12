@@ -5,7 +5,7 @@ pipeline {
         APP_NAME = 'excuse-generator'
         DOCKER_NETWORK = 'devops-net'
         HOST_PORT = '8080'
-        CONTAINER_PORT = '8081'
+        CONTAINER_PORT = '8080'
     }
 
     stages {
